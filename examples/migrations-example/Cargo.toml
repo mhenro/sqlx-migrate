@@ -9,13 +9,13 @@ edition = "2021"
 barrel = { version = "0.7.0", features = ["pg"] }
 # sqlx = { version = "0.7.0", features = ["runtime-tokio-rustls", "postgres"] }
 sqlx = { git = "https://github.com/JackFawthorpePartly/sqlx-partly.git", version = "0.8.6", features = ["runtime-tokio-rustls", "postgres"] }
-sqlx-migrate = { version = "0.7.0", path = "../../crates/sqlx-migrate", features = [
+sqlx-migrate = { version = "0.8.6", path = "../../crates/sqlx-migrate", features = [
   "cli",
   "postgres",
 ] }
 
 [build-dependencies]
-sqlx-migrate = { version = "0.7.0", path = "../../crates/sqlx-migrate", features = [
+sqlx-migrate = { version = "0.8.6", path = "../../crates/sqlx-migrate", features = [
   "generate",
 ] }
 

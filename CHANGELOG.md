@@ -6,6 +6,10 @@
 
 - Use the correct signature for new migrations.
 
+## 0.8.6
+
+- Added support for sqlx 0.8.6
+
 ## 0.7.0
 
 ### Features
